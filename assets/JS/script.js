@@ -72,7 +72,7 @@ const galleryNavElArray = document.querySelectorAll(".gallery-nav-bullet");
 //Current Active image number and total images number
 let currentImage = 1;
 // to add image, add a picture and gallery-nav-bullet in gallery section, and set the new totalImageNumber below
-const totalImageNumber = 8;
+const totalImageNumber = 5;
 
 //Event Listeners for gallery arrows
 galleryButtonLeft.addEventListener("click", e => {

@@ -522,7 +522,8 @@
 
 .footer {
   padding: 10rem 0 12rem 0;
-  background-color: var(--tint-90);
+  /*background-color: var(--tint-90);*/
+  background-color:#282923 ;
 }
 
 .footer-content {
@@ -556,14 +557,14 @@
 .footer-contact {
   gap: 1.5rem;
   font-size: 1.8rem;
-  color: #555;
+  color: #fff;
 }
 
 .footer-headline {
   margin: 2rem 0;
   font-size: 2.2rem;
   font-weight: 600;
-  color: #333;
+  color: #fff;
 }
 
 .social-media-link {
@@ -577,7 +578,7 @@
 
 .social-media-link:hover,
 .social-media-link:active {
-  color: var(--secondary-shade-30);
+  color: var(--secondary-shade-90);
 }
 
 /* Sticky Navigation */
