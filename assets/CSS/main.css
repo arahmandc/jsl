@@ -142,12 +142,13 @@ h1, h2, h3, h4, h5, h6
 .navbar-default
 {
     /*background-color: #267D90;*/
-    background-color: #46a1b4;
+    background-color: #DBE3EE; 
+    /*DBE3EE 46a1b4*/
 }
 .navbar-default .navbar-header .logo
 {
     font-size: 32px;
-    color: #fff;
+    color: #001558;
 }
 .navbar-nav li 
 {
@@ -359,8 +360,9 @@ li:last-child
 }
 .slider-1
 {
-    background: url(../img/slider1.jpg);
+    background: url(../img/slider01.jpg);
     width: 100%;
+    font-family: 'Li Nisha Shwakkhor Unicode';
     background-size: cover;
     vertical-align: middle;
     background-position-x: 75%;
@@ -368,7 +370,7 @@ li:last-child
 }
 .slider-2
 {
-    background: url(../img/slider2.jpg);
+    background: url(../img/slider02.jpg);
     width: 100%;
     background-size: cover;
     background-position-x: 65%;
@@ -376,7 +378,7 @@ li:last-child
 }
 .slider-3
 {
-    background: url(../img/slider3.jpg);
+    background: url(../img/slider03.jpg);
     width: 100%;
     background-size: cover;
     background-position-x: 75%;

@@ -41,13 +41,20 @@ html {
 }
 
 body {
-  font-family: "Merriweather", "Aleo", "Times New Roman", serif;
+  font-family: "Merriweather", "Aleo", "Times New Roman", "Li Nisha Shwakkhor Unicode",  serif;
   line-height: 1.1;
   font-weight: 400;
   color: #555;
   font-size: 2rem;
 }
 
+.banglafont{
+  font-family:;
+  line-height: 1.1;
+  font-weight: 400;
+  color: #555;
+  font-size: 2rem;
+}
 /* Utility Classes */
 
 /* HEADINGS */
