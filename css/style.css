@@ -523,7 +523,7 @@
 .footer {
   padding: 10rem 0 12rem 0;
   /*background-color: var(--tint-90);*/
-  background-color:#282923 ;
+  background-color:#DBE3EE ;
 }
 
 .footer-content {
@@ -557,14 +557,14 @@
 .footer-contact {
   gap: 1.5rem;
   font-size: 1.8rem;
-  color: #fff;
+  color: #000;
 }
 
 .footer-headline {
   margin: 2rem 0;
   font-size: 2.2rem;
   font-weight: 600;
-  color: #fff;
+  color: #000;
 }
 
 .social-media-link {

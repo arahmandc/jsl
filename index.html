@@ -1,214 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Meta description -->
-    <meta
-      name="description"
-      lang="en"
-      content="Khnami Center provides palliative help and care to the elderly and adult population of Yerevan and the surrounding regions."
-    />
-    <meta
-      name="description"
-      lang="ru"
-      content="Центр «Хнами» оказывает паллиативную помощь и уход пожилому и взрослому населению Еревана и близлежащих регионов."
-    />
-    <meta
-      name="description"
-      lang="arm"
-      content="Խնամի կենտրոնը պալիատիվ օգնություն և խնամք է ցուցաբերում Երևանի և ՀՀ մարզերի տարեց և չափահաս բնակչությանը։"
-    />
-    <meta name="keywords" content="palliative, care, help, паллиативный, уход, помощь, պալիատիվ, խնամք, օգնություն">
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://www.khnami-center.com"/>
-    <meta property="og:title" content="Khnami Palliative Care Center"/>
-    <meta property="og:description" content="We provide palliative care to patients with chronic diseases."/>
-    <meta property="og:image" content="https://www.khnami-center.com/assets/content/images/ogImage.jpg"/>
-    <!-- Favicon Package -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/content/images/favicon_package/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/content/images/favicon_package/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/content/images/favicon_package/favicon-16x16.png"
-    />
-    <link
-      rel="manifest"
-      href="./assets/content/images/favicon_package/site.webmanifest"
-    />
-    <link
-      rel="mask-icon"
-      href="./assets/content/images/favicon_package/safari-pinned-tab.svg"
-      color="#5bbad5"
-    /> -->
-    <link rel="canonical" href="https://www.khnami-center.com/">
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="./assets/CSS/general.css" />
-    <link rel="stylesheet" href="./assets/CSS/style.css" />
-    <link rel="stylesheet" href="./assets/CSS/queries.css" />
-    <link rel="stylesheet" href="./assets/CSS/translation.css" />
-    <!-- Google Fonts Aleo + Merriweather -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Favicon -->
-    <link
-      rel="icon"
-      href="assets/content/images/icon.ico"
-    />
+    <link rel="icon" href="media/icon.ico"/>
     <title>Jashore Sheba Ltd</title>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQBHPDK9E4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/translation.css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
-      gtag('config', 'G-EQBHPDK9E4');
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+
   </head>
-  <style>
-    .invisible {
-      display: none !important;
-    }
-  </style>
   <body>
-    <!-- HEADER -->
-    <div class="header-background"></div>
+
+    <div id="photo" style="text-align: right; background-color: rgba(255, 255, 255, 0.1);" >
+    <!-- <img style="vertical-align:middle; height: 50px; margin: 20px; margin-right: 0px;" src="media/osmbd.png"  alt="">
+    <span style="vertical-align:middle; margin: 20px; margin-left:5px; font-size: 28px; font-weight: bold;">OpenStreetMap Bangladesh</span> -->
+    </div>
+
+
+
     <header class="header container flex--centered-vertically">
       <!-- Header Navigation -->
       <div class="header-nav flex--centered-vertically">
         <!-- logo link -->
-        <a href="#" class="btn header-link header-link--home"
+        <a href="#index.html" class="btn header-link header-link--home"
           ><img
-            src="./assets/content/images/jsllogo.png"
-            alt="Khnami Logo"
+            src="media/jsllogo.png"
             class="header-logo-img"
         /></a>
-        <nav class="main-nav">
-        <!-- header nav links -->
-        <a
-          href="#section_services"
-          class="btn header-link header-link--services margin-bot--md mobile-nav-link"
-          ><p class="language language--en">Services</p>
-          <p class="language language--ru invisible">Услуги</p>
-          <p class="language language--arm invisible">Ծառայություններ</p>
-        </a>
-        <a
-          href="#section_gallery"
-          class="btn header-link header-link--gallery margin-bot--md mobile-nav-link"
-          ><p class="language language--en">Gallery</p>
-          <p class="language language--ru invisible">Галерея</p>
-          <p class="language language--arm invisible">Պատկերասրահ</p></a
-        >
-       <!--  <a
-          href="#section_team"
-          class="btn header-link header-link--team margin-bot--md mobile-nav-link"
-          ><p class="language language--en">Team</p>
-          <p class="language language--ru invisible">Команда</p>
-          <p class="language language--arm invisible">Թիմ</p></a
-        > -->
-        <a
-          href="#footer"
-          class="btn header-link header-link--contact margin-bot--md mobile-nav-link"
-          ><p class="language language--en">Contact</p>
-          <p class="language language--ru invisible">Контакт</p>
-          <p class="language language--arm invisible">Կապ</p></a
-        >   
-        </nav>
-        <!-- language select dropdown-->
-        <!-- <div class="lang-select-dropdown margin-bot--md">
-          <button class="lang-select-dropdown-btn flex--centered">
-            <ion-icon name="caret-down-outline"></ion-icon>
-            <p class="language language--en">EN</p>
-            <p class="language language--ru invisible">РУC</p>
-            <p class="language language--arm invisible">ՀԱՅ</p>
-          </button>
-          <div class="lang-select-dropdown-content hidden-content">
-            <a href="" class="lang-select lang-select--arm">
-              <img
-                src="./assets/content/images/util/ARMflag.svg"
-                alt="ARM flag"
-                class="flag-img"
-              />
-              <p class="armenian header--lang-select--armenian">Հայերեն</p>
-              </a
-            >
-            <a href="" class="lang-select lang-select--ru">
-              <img
-                src="./assets/content/images/util/RUflag.svg"
-                alt="RU flag"
-                class="flag-img"
-              />
-              <p>Русский</p>
-              </a
-            >
-            <a href="" class="lang-select lang-select--en">
-              <img
-                src="./assets/content/images/util/UKflag.svg"
-                alt="UK flag"
-                class="flag-img"
-              /> <p>English</p>
-              </a
-            >
-          </div>
-        </div> -->
-      </div>
-      <!-- header contact links -->
-      <div class="header-contact">
-        <div class="header-contact-container flex--centered-vertically">
-          <address class="header-address grid">
-            <!-- mobile navbar -->
-          <button class="btn-mobile-nav">
-            <ion-icon
-              name="menu-outline"
-              class="icon-mobile-nav btn--open-nav"
-            ></ion-icon>
-            <ion-icon
-              name="close-outline"
-              class="icon-mobile-nav btn--close-nav invisible"
-            ></ion-icon>
-          </button>
-            <!-- map location -->
-            <!-- <a
-              href="#"
-              class="header-address-box flex--centered-vertically address-link"
-              onclick='window.open("https://www.google.com/maps/place/Armenikum+Center,+Yerevan,+Armenia/@40.1820196,44.4413562,18.7z/data=!4m5!3m4!1s0x406abdf21a593b07:0x75b2d27a9ae3618!8m2!3d40.1820435!4d44.4413468!5m1!1e4?hl=en");return false;'
-            >
-              <ion-icon name="navigate-outline" class="header-icon"></ion-icon>
-              <div class="header-address-text">
-                <p class="language language--en">Gusan Sherami 2</p>
-                <p class="language language--ru invisible">
-                  Гусан Шерами 2
-                </p>
-                <p class="language language--arm invisible">
-                  Գուսան Շերամի 2
-                </p>
-              </div>
-            </a> -->
-            <!-- Phone Number  -->
-             <a
+
+
+       <div class="header-contact" >
+        <div class="header-contact-container flex--centered-vertically" >
+
+            <a
               href="call:+8801511-150112"
               class="header-address-box flex--centered-vertically address-link"
               onclick='window.open("tel:+8801511-150112");return false;'
@@ -218,6 +53,7 @@
                 <p class="address-text">(+88) 01511-150112</p>
               </div>
             </a>
+
             <a
               href="call:+8801712-833167"
               class="header-address-box flex--centered-vertically address-link"
@@ -228,980 +64,21 @@
                 <p class="address-text">(+88) 01712-833167</p>
               </div>
             </a>
-          </address>
+
+
         </div>
       </div>
     </header>
-    <!-- MAIN -->
-    <main>
-      <!-- HERO SECTION -->
-      <section class="section-hero padding--section">
-        <div class="container hero grid grid--2-cols centered--vertically">
-          <!-- hero text -->
-          <div class="hero-text-box grid">
-            <!-- hero headline -->
-            <h1 class="heading-primary language--en">
-              Palliative care with dignity and kindness.
-            </h1>
-            <h1 class="heading-primary language language--ru invisible">
-              Паллиативная помощь с достоинством и добротой.
-            </h1>
-            <h1 class="heading-primary language language--arm invisible">
-              Պալիատիվ խնամք՝ արժանավայել և լի բարությամբ 
-            </h1>
-            <!-- hero description -->
-            <!-- <p class="hero-description language language--en">
-              The Khnami Center provides palliative care to patients with chronic diseases.
-            </p>
-            <p class="hero-description language language--ru invisible">
-              Центр «Хнами» оказывает паллиативную помощь пациентам с тяжелыми хроническими заболеваниями.
-            </p>
-            <p class="hero-description language language--arm invisible">
-              Խնամի կենտրոնը ցուցաբերում է պալիատիվ օգնություն ծանր քրոնիկ հիվանդներին։
-            </p> -->
-            <!-- hero cta -->
-            <a
-              href="#section_cta"
-              class="btn hero-cta-btn shadow--animated language language--en"
-            
-            ><p>Book Services</p>
-            <a
-              href="#section_cta"
-              class="btn hero-cta-btn shadow--animated language language--ru invisible"
-            >
-              <p>Записаться на бесплатную консультацию</p></a
-            >
-            <a
-              href="#section_cta"
-              class="btn hero-cta-btn shadow--animated language language--arm invisible"
-            >
-              <p>Ամրագրել անվճար խորհրդատվություն</p></a
-            >
-          </div>
-          <div class="hero-img-box">
-            <picture>
-                  <source
-                    srcset="./assets/content/images/bg.html"
-                    type="image/html"
-                  />
-                  <img
-                    src="./assets/content/images/bg.png"
-                    class="hero-img shadow"
-                    alt="Khnami provides palliative care to patients with chronic diseases |  Խնամի-ն ցուցաբերում է պալիատիվ խնամք ծանր քրոնիկ հիվանդներին"
-                  />
-            </picture>
-          </div>
-        </div>
-      </section>
-      <!-- SERVICES SECTION -->
-      <section class="section-services padding--section" id="section_services">
-        <!-- services headline -->
-        <div class="container services-headline padding-bot-lg1">
-          <h2 class="heading-secondary language language--en">Services</h2>
-          <h2 class="heading-secondary language language--ru invisible">
-            Услуги
-          </h2>
-          <h2 class="heading-secondary language language--arm invisible">
-            Ծառայություններ
-          </h2>
-        </div>
-        <!-- Services grid -->
-        <div class="services container grid grid--3-cols">
-          <!-- Services: accomodation -->
-          <div class="services-box grid shadow--dark">
-            <p class="services-box-header language language--en">
-              Accomodation
-            </p>
-            <p class="services-box-header language language--ru invisible">
-              Условия
-            </p>
-            <p class="services-box-header language language--arm invisible">
-              Պայմաններ
-            </p>
-            <div class="services-icon-box">
-              <ion-icon
-                name="home-outline"
-                class="services-main-icon"
-              ></ion-icon>
-            </div>
-            <ul class="services--list list">
-              <li class="service">
-                <div class="checkmark">
-                  <ion-icon
-                    name="checkmark-outline"
-                    class="checkmark-icon"
-                  ></ion-icon>
-                </div>
-                <p class="language language--en">Comfortable rooms</p>
-                <p class="language language--ru invisible">
-                  Комфортные комнаты
-                </p>
-                <p class="language language--arm invisible">
-                  Հարմարևետ սենյակներ
-                </p>
-              </li>
-              <li class="service">
-                <div class="checkmark">
-                  <ion-icon
-                    name="checkmark-outline"
-                    class="checkmark-icon"
-                  ></ion-icon>
-                </div>
-                <p class="language language--en">Private bathrooms</p>
-                <p class="language language--ru invisible">
-                  Отдельные санузлы
-                </p>
-                <p class="language language--arm invisible">
-                  Առանձին սանհանգույց
-                </p>
-              </li>
-              <li class="service">
-                <div class="checkmark">
-                  <ion-icon
-                    name="checkmark-outline"
-                    class="checkmark-icon"
-                  ></ion-icon>
-                </div>
-                <p class="language language--en">TV and internet</p>
-                <p class="language language--ru invisible">
-                  ТВ и интернет
-                </p>
-                <p class="language language--arm invisible">
-                  TV և ինտերնետ
-                </p>
-              </li>
-              <li class="service">
-                <div class="checkmark">
-                  <ion-icon
-                    name="checkmark-outline"
-                    class="checkmark-icon"
-                  ></ion-icon>
-                </div>
-                <p class="language language--en">
-                  Refrigerator
-                </p>
-                <p class="language language--ru invisible">
-                  Холодильник
-                </p>
-                <p class="language language--arm invisible">
-                  Սառնարան
-                </p>
-              </li>
-            </ul>
-          </div>
-          <!-- Services: care -->
-          <div class="services-box grid shadow--dark">
-            <p class="services-box-header language language--en">Daily Care</p>
-            <p class="services-box-header language language--ru invisible">
-              Ежедневный Уход
-            </p>
-            <p class="services-box-header language language--arm invisible">
-              Մասնագիտացված Խնամք
-            </p>
-            <div class="services-icon-box">
-              <ion-icon
-                name="heart-outline"
-                class="services-main-icon"
-              ></ion-icon>
-            </div>
-            <ul class="services--list list">
-              <li class="service">
-                <div class="checkmark">
-                  <ion-icon
-                    name="checkmark-outline"
-                    class="checkmark-icon"
-                  ></ion-icon>
-                </div>
-                <p class="language language--en">
-                  Doctor's supervision
-                </p>
-                <p class="language language--ru invisible">
-                  Врачебный контроль
-                </p>
-                <p class="language language--arm invisible">
-                  Բժշկի հսկողություն
-                </p>
-              </li>
-              <li class="service">
-                <div class="checkmark">
-                  <ion-icon
-                    name="checkmark-outline"
-                    class="checkmark-icon"
-                  ></ion-icon>
-                </div>
-                <p class="language language--en">24/7 nursing care</p>
-                <p class="language language--ru invisible">
-                  24/7 уход за больными
-                </p>
-                <p class="language language--arm invisible">
-                  24/7 բուժքույրական խնամք
-                </p>
-              </li>
-              <li class="service">
-                <div class="checkmark">
-                  <ion-icon
-                    name="checkmark-outline"
-                    class="checkmark-icon"
-                  ></ion-icon>
-                </div>
-                <p class="language language--en">3 meals a day</p>
-                <p class="language language--ru invisible">
-                  3-х разовое питание
-                </p>
-                <p class="language language--arm invisible">3 անգամյա սնունդ</p>
-              </li>
-              <li class="service">
-                <div class="checkmark">
-                  <ion-icon
-                    name="checkmark-outline"
-                    class="checkmark-icon"
-                  ></ion-icon>
-                </div>
-                <p class="language language--en">Hygiene procedures</p>
-                <p class="language language--ru invisible">
-                  Гигиенические процедуры
-                </p>
-                <p class="language language--arm invisible">
-                  Հիգիենայի միջոցառումներ
-                </p>
-              </li>
-            </ul>
-          </div>
-          <!-- services: treatment -->
-          <div class="services-box grid shadow--dark">
-            <p class="services-box-header language language--en">Treatment</p>
-            <p class="services-box-header language language--ru invisible">
-              Лечение
-            </p>
-            <p class="services-box-header language language--arm invisible">
-              Բուժում
-            </p>
-            <div class="services-icon-box">
-              <ion-icon
-                name="medkit-outline"
-                class="services-main-icon"
-              ></ion-icon>
-            </div>
-            <ul class="services--list list">
-              <li class="service">
-                <div class="checkmark">
-                  <ion-icon
-                    name="checkmark-outline"
-                    class="checkmark-icon"
-                  ></ion-icon>
-                </div>
-                <p class="language language--en">Symptomatic treatment</p>
-                <p class="language language--ru invisible">
-                  Симптоматическое лечение
-                </p>
-                <p class="language language--arm invisible">
-                  Սիմպտոմատիկ բուժում
-                </p>
-              </li>
-              <li class="service">
-                <div class="checkmark">
-                  <ion-icon
-                    name="checkmark-outline"
-                    class="checkmark-icon"
-                  ></ion-icon>
-                </div>
-                <p class="language language--en">Pain relief</p>
-                <p class="language language--ru invisible">Обезболивание</p>
-                <p class="language language--arm invisible">Ցավազրկում</p>
-              </li>
-              <li class="service">
-                <div class="checkmark">
-                  <ion-icon
-                    name="checkmark-outline"
-                    class="checkmark-icon"
-                  ></ion-icon>
-                </div>
-                <p class="language language--en">Centrally supplied oxygen</p>
-                <p class="language language--ru invisible">
-                  Централизованный кислород
-                </p>
-                <p class="language language--arm invisible">
-                  Կենտրոնացված թթվածին
-                </p>
-              </li>
-              <li class="service">
-                <div class="checkmark">
-                  <ion-icon
-                    name="checkmark-outline"
-                    class="checkmark-icon"
-                  ></ion-icon>
-                </div>
-                <p class="language language--en">Preventive procedures</p>
-                <p class="language language--ru invisible">
-                  Профилактические процедуры
-                </p>
-                <p class="language language--arm invisible">
-                  Կանխարգելիչ միջոցառումներ
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!-- GALLERY -->
-      <section class="section-gallery padding--section" id="section_gallery">
-        <!-- gallery headline -->
-        <div class="container gallery-headline padding-bot-lg1">
-          <h2 class="heading-secondary language language--en">Gallery</h2>
-          <h2 class="heading-secondary language language--ru invisible">
-            Галерея
-          </h2>
-          <h2 class="heading-secondary language language--arm invisible">
-            Պատկերասրահ
-          </h2>
-        </div>
-        <!-- gallery container -->
-        <div class="gallery--container gallery grid">
-          <div class="gallery-element">
-            <!-- gallery image -->
-            <div class="gallery-img-box shadow--dark--strong">
-              <picture class="gallery-picture">
-                  <!-- <source
-                    srcset="./assets/content/images/gallery/Gallery-img-1.webp"
-                    type="image/webp"
-                  /> -->
-                  <img
-                    src="assets/content/images/gallery/g1.jpg"
-                    class="gallery-img"
-                    alt="Palliative care room Yerevan | Պալիատիվ խնամքի պալատ Երևան"
-                  />
-              </picture>
-              <picture class="gallery-picture invisible">
-                  <!-- <source
-                    srcset="./assets/content/images/gallery/Gallery-img-2.webp"
-                    type="image/webp"
-                  /> -->
-                  <img
-                    src="assets/content/images/gallery/g2.jpg"
-                    class="gallery-img"
-                    alt="Palliative care room Yerevan | Պալիատիվ խնամքի պալատ Երևան"
-                  />
-              </picture>
-              <picture class="gallery-picture invisible">
-                  <!-- <source
-                    srcset="./assets/content/images/gallery/Gallery-img-3.webp"
-                    type="image/webp"
-                  /> -->
-                  <img
-                    src="assets/content/images/gallery/g3.jpg"
-                    class="gallery-img"
-                    alt="Palliative room with TV | Պալիատիվ պալատ հեռուստացույցով"
-                  />
-              </picture>
-              <picture class="gallery-picture invisible">
-                  <!-- <source
-                    srcset="./assets/content/images/gallery/Gallery-img-4.webp"
-                    type="image/webp"
-                  /> -->
-                  <img
-                    src="assets/content/images/gallery/g4.jpg"
-                    class="gallery-img"
-                    alt="Palliative care room Yerevan | Պալիատիվ խնամքի պալատ Երևան"
-                  />
-              </picture>
-              <picture class="gallery-picture invisible">
-                  <!-- <source
-                    srcset="./assets/content/images/gallery/Gallery-img-5.webp"
-                    type="image/webp"
-                  /> -->
-                  <img
-                    src="assets/content/images/gallery/g5.jpg"
-                    class="gallery-img"
-                    alt= "Palliative care center reception | Պալիատիվ խնամքի կենտռոնի ընդունարան"
-                  />
-              </picture>
-              <!-- <picture class="gallery-picture invisible">
-                  <source
-                    srcset="./assets/content/images/gallery/Gallery-img-6.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/gallery/Gallery-img-6.jpg"
-                    class="gallery-img"
-                    alt="Beds for patients with special needs | Մահճակալներ հատուկ կարիքներով հիվանդների համար"
-                  />
-              </picture>
-              <picture class="gallery-picture invisible">
-                  <source
-                    srcset="./assets/content/images/gallery/Gallery-img-7.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/gallery/Gallery-img-7.jpg"
-                    class="gallery-img"
-                    alt="Cozy corner with sofas and armchairs | Հարմարավետ անկյուն՝ բազմոցներով և բազկաթոռներով"
-                  />
-              </picture>
-              <picture class="gallery-picture invisible">
-                  <source
-                    srcset="./assets/content/images/gallery/Gallery-img-8.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/gallery/Gallery-img-8.jpg"
-                    class="gallery-img"
-                    alt="Palliative care and help official license | Պալիատիվ խնամքի և օգնության պաշտոնական լիցենզիա"
-                  />
-              </picture> -->
-            </div>
-            <!-- gallery buttons -->
-            <btn class="gallery-btn gallery-btn-left">
-              <ion-icon
-                name="chevron-back-circle-outline"
-                class="gallery-img-icon shadow--dark--strong"
-              ></ion-icon>
-            </btn>
-            <btn class="gallery-btn gallery-btn-right">
-              <ion-icon
-                name="chevron-forward-circle-outline"
-                class="gallery-img-icon shadow--dark--strong"
-              ></ion-icon>
-            </btn>
-          </div>
-          <!-- gallery navigation -->
-        <nav class="gallery-nav">
-          <ul class="gallery-nav-bullets list">
-            <li class="gallery-nav-bullet" id="gallery_bullet_1">
-              <ion-icon name="ellipse" class="gallery-nav-icon"></ion-icon>
-            </li>
-            <li class="gallery-nav-bullet" id="gallery_bullet_2">
-              <ion-icon
-                name="ellipse-outline"
-                class="gallery-nav-icon"
-              ></ion-icon>
-            </li>
-            <li class="gallery-nav-bullet" id="gallery_bullet_3">
-              <ion-icon
-                name="ellipse-outline"
-                class="gallery-nav-icon"
-              ></ion-icon>
-            </li>
-            <li class="gallery-nav-bullet" id="gallery_bullet_4">
-              <ion-icon
-                name="ellipse-outline"
-                class="gallery-nav-icon"
-              ></ion-icon>
-            </li>
-            <li class="gallery-nav-bullet" id="gallery_bullet_5">
-              <ion-icon
-                name="ellipse-outline"
-                class="gallery-nav-icon"
-              ></ion-icon>
-            </li>
-     <!--        <li class="gallery-nav-bullet" id="gallery_bullet_6">
-              <ion-icon
-                name="ellipse-outline"
-                class="gallery-nav-icon"
-              ></ion-icon>
-            </li>
-            <li class="gallery-nav-bullet" id="gallery_bullet_7">
-              <ion-icon
-                name="ellipse-outline"
-                class="gallery-nav-icon"
-              ></ion-icon>
-            </li>
-            <li class="gallery-nav-bullet" id="gallery_bullet_8">
-              <ion-icon
-                name="ellipse-outline"
-                class="gallery-nav-icon"
-              ></ion-icon>
-            </li> -->
-          </ul>
-        </nav>
-        </div>
-        <!-- testimonials container -->
-        <!-- <div class="testimonials container grid grid--2-cols">
-          <div class="testimonial-box">
-            <picture>
-                  <source
-                    srcset="./assets/content/images/customers/customerSirush.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/customers/customerSirush.jpg"
-                    class="testimonial-img margin-bot--sm"
-                    alt="Customer Face"
-                  />
-            </picture>
-            <p class="testimonial-text margin-bot--sm language language--en">
-              Professional staff, caring attitude. You are doing very important
-              work to improve the quality of life of patients. Thank you!
-            </p>
-            <p
-              class="testimonial-text margin-bot--sm language language--ru invisible"
-            >
-              Профессиональный персонал, внимательное отношение. Вы делаете
-              очень важную работу по улучшению качества жизни пациентов.
-              Благодарю вас!
-            </p>
-            <p
-              class="testimonial-text margin-bot--sm language language--arm invisible"
-            >
-              Պրոֆեսիոնալ անձնակազմ, հոգատար վերաբերմունք։ Շատ կարևոր աշխատանք
-              եք կատարում` հիվանդների կյանքի որակը բարձրացնելու համար։Շնորհակալ
-              եմ։
-            </p>
-            <span class="testimonial-author language--en"
-              >&dash; Sirush Apresyan</span
-            >
-            <span class="testimonial-author language--ru invisible"
-              >&dash; Сируш Апресян
-            </span>
-            <span class="testimonial-author language--arm invisible"
-              >&dash; Սիրուշ Ապրեսյան
-            </span>
-          </div>
-          <div class="testimonial-box">
-            <picture>
-                  <source
-                    srcset="./assets/content/images/customers/customerAshot.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/customers/customerAshot.jpg"
-                    class="testimonial-img margin-bot--sm"
-                    alt="Customer Face"
-                  />
-            </picture>
-            <p class="testimonial-text margin-bot--sm language language--en">
-              I would like to express my gratitude to the team at Khnami Center.
-              They have a wonderful, caring and professional service.
-            </p>
-            <p
-              class="testimonial-text margin-bot--sm language language--ru invisible"
-            >
-              Хочу выразить благодарность коллективу Хнами Центра. У них
-              замечательный, заботливый и профессиональный сервис.
-            </p>
-            <p
-              class="testimonial-text margin-bot--sm language language--arm invisible"
-            >
-              Ցանկանում եմ իմ երախտագիտությունը հայտնել Խնամի կենտրոնի
-              աշխատակազմին: Նրանք ունեն հիանալի, հոգատար և պրոֆեսիոնալ
-              սպասարկում։
-            </p>
-            <span class="testimonial-author language--en"
-              >&dash; Ashot Enokyan</span
-            >
-            <span class="testimonial-author language--ru invisible"
-              >&dash; Ашот Енокян
-            </span>
-            <span class="testimonial-author language--arm invisible"
-              >&dash; Աշոտ Ենոքյան
-            </span>
-          </div>
-          <div class="testimonial-box">
-            <picture>
-                  <source
-                    srcset="./assets/content/images/customers/customerIrina.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/customers/customerIrina.jpg"
-                    class="testimonial-img margin-bot--sm"
-                    alt="Customer Face"
-                  />
-            </picture>
-            <p class="testimonial-text margin-bot--sm language language--en">
-              My immense gratitude to the entire staff of the Khnami Center for
-              your work and professionalism. Thanks to you, I have returned to
-              normal life.
-            </p>
-            <p
-              class="testimonial-text margin-bot--sm language language--ru invisible"
-            >
-              Выражаю огромную благодарность всему коллективу Центра Хнами за
-              вашу работу и профессионализм. Благодаря вам я вернулась к
-              нормальной жизни!
-            </p>
-            <p
-              class="testimonial-text margin-bot--sm language language--arm invisible"
-            >
-              Իմ անսահման շնորհակալությունը Խնամի կենտրոնի ողջ անձնակազմին ձեր
-              աշխատանքի և պրոֆեսիոնալիզմի համար։ Ձեր շնորհիվ ես վերադարձա
-              բնականոն կյանքին։
-            </p>
-            <span class="testimonial-author language--en"
-              >&dash; Irina Kaz</span
-            >
-            <span class="testimonial-author language--ru invisible"
-              >&dash; Ирина Каз
-            </span>
-            <span class="testimonial-author language--arm invisible"
-              >&dash; Իրինա Կազ
-            </span>
-          </div>
-          <div class="testimonial-box">
-              <picture>
-                  <source
-                    srcset="./assets/content/images/customers/customerAnahit.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/customers/customerAnahit.jpg"
-                    class="testimonial-img margin-bot--sm"
-                    alt="Customer Face"
-                  />
-              </picture>
-            <p class="testimonial-text margin-bot--sm language language--en">
-              Thank you very much for your caring attitude and professional
-              approach! A special thanks to the director Mrs. Dianna for her
-              personal attitude.
-            </p>
-            <p
-              class="testimonial-text margin-bot--sm language language--ru invisible"
-            >
-              Большое спасибо за внимательное отношение и профессиональный
-              подход! Отдельное спасибо директору Дианне за ее личное отношение.
-            </p>
-            <p
-              class="testimonial-text margin-bot--sm language language--arm invisible"
-            >
-              Անչափ շնորհակալ ենք հոգատար վերաբերմունք և պրոֆեսիոնալ մոտեցման
-              համար։ Առանձնահատուկ շնորհակալություն տնօրեն Տիկին Դիաննային մարդ
-              տեսակի համար։
-            </p>
-            <span class="testimonial-author language--en"
-              >&dash; Anahit Aghababyan</span
-            >
-            <span class="testimonial-author language--ru invisible"
-              >&dash; Анаит Агабабян
-            </span>
-            <span class="testimonial-author language--arm invisible"
-              >&dash; Անահիտ Աղաբաբյան
-            </span>
-          </div>
-        </div>
-      </section> -->
 
 
+    <div id="showcase_table"><div id="showcase_cell">
 
-      <!-- TEAM -->
-      <!-- <section class="section-team padding--section" id="section_team"> -->
-        <!-- team headline -->
-        <!-- <div class="container team-headline padding-bot-lg1">
-          <h2 class="heading-secondary language language--en">Our team</h2>
-          <h2 class="heading-secondary language language--ru invisible">
-            Наша команда
-          </h2>
-          <h2 class="heading-secondary language language--arm invisible">
-            Մեր թիմը
-          </h2>
-        </div> -->
-        <!-- team members -->
-        <!-- <div class="container grid--team">
-            <div class="team-member-box flex-column">
-              <div class="img-box margin-bot--sm">
-                <picture>
-                  <source
-                    srcset="./assets/content/images/team/1BeglaryanD.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/team/1BeglaryanD.jpg"
-                    class="team-member-img shadow--dark"
-                    alt="Team Members: Head Of The Center"
-                  />
-                 </picture>
-              </div>
-              <p class="team-member-name language language--en">Beglaryan D.</p>
-              <p class="team-member-name language language--ru invisible">
-                Бегларян Д.
-              </p>
-              <p class="team-member-name language language--arm invisible">
-                Բեգլարյան Դ.
-              </p>
-              <p class="team-member-title language language--en">
-                Head of the center
-              </p>
-              <p class="team-member-title language language--ru invisible">
-                Руководитель центра
-              </p>
-              <p class="team-member-title language language--arm invisible">
-                կենտրոնի Ղեկավար
-              </p>
-            </div>
-            <div class="team-member-box flex-column">
-              <div class="img-box margin-bot--sm">
-                <picture>
-                  <source
-                    srcset="./assets/content/images/team/7DemirchyanE.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/team/7DemirchyanE.jpg"
-                    class="team-member-img shadow--dark"
-                    alt="Team Members: Oncologist"
-                  />
-                 </picture>
-              </div>
-              <p class="team-member-name language language--en">
-                Demirchyan E.
-              </p>
-              <p class="team-member-name language language--ru invisible">
-                Демирчян Э.
-              </p>
-              <p class="team-member-name language language--arm invisible">
-                Դեմիրճյան Է.
-              </p>
-              <p class="team-member-title language language--en">Oncologist</p>
-              <p class="team-member-title language language--ru invisible">
-                Онколог
-              </p>
-              <p class="team-member-title language language--arm invisible">
-                Ուռուցքաբան
-              </p>
-            </div>
-            <div class="team-member-box flex-column">
-              <div class="img-box margin-bot--sm">
-                <picture>
-                  <source
-                    srcset="./assets/content/images/team/4MazmanyanV.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/team/4MazmanyanV.jpg"
-                    class="team-member-img shadow--dark"
-                    alt="Team Members: Family Doctor"
-                  />
-                 </picture>
-              </div>
-              <p class="team-member-name language language--en">Mazmanyan V.</p>
-              <p class="team-member-name language language--ru invisible">
-                Мазманян В.
-              </p>
-              <p class="team-member-name language language--arm invisible">
-                Մազմանյան Վ.
-              </p>
-              <p class="team-member-title language language--en">
-                Family Doctor
-              </p>
-              <p class="team-member-title language language--ru invisible">
-                Семейный доктор
-              </p>
-              <p class="team-member-title language language--arm invisible">
-                Ընտանեկան բժիշկ
-              </p>
-            </div>
-            <div class="team-member-box flex-column">
-              <div class="img-box margin-bot--sm">
-                <picture>
-                  <source
-                    srcset="./assets/content/images/team/8NersisyanS.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/team/8NersisyanS.jpg"
-                    class="team-member-img shadow--dark"
-                    alt="Team Members: Nurse"
-                  />
-                 </picture>
-              </div>
-              <p class="team-member-name language language--en">Nersisyan S.</p>
-              <p class="team-member-name language language--ru invisible">
-                Нерсисян С.
-              </p>
-              <p class="team-member-name language language--arm invisible">
-                Ներսիսյան Ս.
-              </p>
-              <p class="team-member-title language language--en">
-                Senior Nurse
-              </p>
-              <p class="team-member-title language language--ru invisible">
-                Старшая медсестра
-              </p>
-              <p class="team-member-title language language--arm invisible">
-                Ավագ բուժքույր
-              </p>
-            </div>
-            <div class="team-member-box flex-column">
-              <div class="img-box margin-bot--sm">
-                <picture>
-                  <source
-                    srcset="./assets/content/images/team/3SuqiasyanK.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/team/3SuqiasyanK.jpg"
-                    class="team-member-img shadow--dark"
-                    alt="Team Members: Nurse"
-                  />
-                 </picture>
-              </div>
-              <p class="team-member-name language language--en">Suqiasyan K.</p>
-              <p class="team-member-name language language--ru invisible">
-                Сукиасян К.
-              </p>
-              <p class="team-member-name language language--arm invisible">
-                Սուքիասյան Կ.
-              </p>
-              <p class="team-member-title language language--en">Nurse</p>
-              <p class="team-member-title language language--ru invisible">
-                Медсестра
-              </p>
-              <p class="team-member-title language language--arm invisible">
-                Բուժքույր
-              </p>
-            </div>
-            <div class="team-member-box flex-column">
-              <div class="img-box margin-bot--sm">
-                <picture>
-                  <source
-                    srcset="./assets/content/images/team/9Sirekyan.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/team/9Sirekyan.jpg"
-                    class="team-member-img shadow--dark"
-                    alt="Team Members: Nurse"
-                  />
-                 </picture>
-              </div>
-              <p class="team-member-name language language--en">Sirekanyan G.</p>
-              <p class="team-member-name language language--ru invisible">
-                Сиреканян Г.
-              </p>
-              <p class="team-member-name language language--arm invisible">
-                Սիրեկանյան Գ.
-              </p>
-              <p class="team-member-title language language--en">Nurse</p>
-              <p class="team-member-title language language--ru invisible">
-                Медсестра
-              </p>
-              <p class="team-member-title language language--arm invisible">
-                Բուժքույր
-              </p>
-            </div>
-            <div class="team-member-box flex-column">
-              <div class="img-box margin-bot--sm">
-                <picture>
-                  <source
-                    srcset="./assets/content/images/team/6QocharyanS.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/team/6QocharyanS.jpg"
-                    class="team-member-img shadow--dark"
-                    alt="Team Members: Nurse"
-                  />
-                 </picture>
-              </div>
-              <p class="team-member-name language language--en">Qocharyan S.</p>
-              <p class="team-member-name language language--ru invisible">
-                Кочарян С.
-              </p>
-              <p class="team-member-name language language--arm invisible">
-                Քոչարյան Ս.
-              </p>
-              <p class="team-member-title language language--en">Nurse</p>
-              <p class="team-member-title language language--ru invisible">
-                Медсестра
-              </p>
-              <p class="team-member-title language language--arm invisible">
-                Բուժքույր
-              </p>
-            </div>
-            <div class="team-member-box flex-column">
-              <div class="img-box margin-bot--sm">
-                <picture>
-                  <source
-                    srcset="./assets/content/images/team/5GarakeshishyanS.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/team/5GarakeshishyanS.jpg"
-                    class="team-member-img shadow--dark"
-                    alt="Team Members: Nurse"
-                  />
-                 </picture>
-              </div>
-              <p class="team-member-name language language--en">
-                Garakeshishyan S.
-              </p>
-              <p class="team-member-name language language--ru invisible">
-                Гаракешишян С.
-              </p>
-              <p class="team-member-name language language--arm invisible">
-                Գարաքեշիշյան Ս.
-              </p>
-              <p class="team-member-title language language--en">Nurse</p>
-              <p class="team-member-title language language--ru invisible">
-                Медсестра
-              </p>
-              <p class="team-member-title language language--arm invisible">
-                Բուժքույր
-              </p>
-            </div>
-            <div class="team-member-box flex-column">
-              <div class="img-box margin-bot--sm">
-                <picture>
-                  <source
-                    srcset="./assets/content/images/team/10Karapetyan.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/team/10Karapetyan.jpg"
-                    class="team-member-img shadow--dark"
-                    alt="Team Members: Caregiver"
-                  />
-                 </picture>
-              </div>
-              <p class="team-member-name language language--en">
-                Karapetyan E.
-              </p>
-              <p class="team-member-name language language--ru invisible">
-                Карапетян Э.
-              </p>
-              <p class="team-member-name language language--arm invisible">
-                Կարապետյան Է.
-              </p>
-              <p class="team-member-title language language--en">Caregiver</p>
-              <p class="team-member-title language language--ru invisible">
-                Сиделка
-              </p>
-              <p class="team-member-title language language--arm invisible">
-                Խնամող
-              </p>
-            </div>
-            <div class="team-member-box flex-column">
-              <div class="img-box margin-bot--sm">
-                <picture>
-                  <source
-                    srcset="./assets/content/images/team/2TantushyanR.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="./assets/content/images/team/2TantushyanR.jpg"
-                    class="team-member-img shadow--dark"
-                    alt="Team Members: Caregiver"
-                  />
-                 </picture>
-              </div>
-              <p class="team-member-name language language--en">
-                Tantushyan R.
-              </p>
-              <p class="team-member-name language language--ru invisible">
-                Тантушян Р.
-              </p>
-              <p class="team-member-name language language--arm invisible">
-                Թանթուշյան Ռ.
-              </p>
-              <p class="team-member-title language language--en">Caregiver</p>
-              <p class="team-member-title language language--ru invisible">
-                Сиделка
-              </p>
-              <p class="team-member-title language language--arm invisible">
-                Խնամող
-              </p>
-        </div>
-      </section> -->
-      <!-- CTA -->
-      <section class="section-cta padding--section" id="section_cta">
+
+<div class="bounce_in_animation">Full Website will coming soon.</div>
+</div></div>
+
+
+    <section class="section-cta padding--section" id="section_cta">
         <!-- cta box -->
         <div class="container cta-box flex-column shadow--dark--strong">
           <!-- cta text -->
@@ -1209,40 +86,19 @@
             <p class="cta-headline margin-bot--md language language--en">
               Book your expected services now!
             </p>
-            <p
-              class="cta-headline margin-bot--md language language--ru invisible"
-            >
-              Запишитесь на бесплатную консультацию прямо сейчас!
-            </p>
-            <p
-              class="cta-headline margin-bot--md language language--arm invisible"
-            >
-              Ամրագրե՛ք Ձեր անվճար խորհրդատվությունը հենց հիմա
-            </p>
+            
             <p class="cta-description margin-bot--md language language--en">
               Our team will contact you as soon as possible, and help you
               organize professional care for your loved one.
             </p>
-            <p
-              class="cta-description margin-bot--md language language--ru invisible"
-            >
-              Наша команда свяжется с вами в кратчайшие сроки и поможет
-              организовать профессиональный уход за вашим близким.
-            </p>
-            <p
-              class="cta-description margin-bot--md language language--arm invisible"
-            >
-              Մեր թիմը հնարավորինս շուտ կկապվի ձեզ հետ և կօգնի ձեզ կազմակերպել
-              ձեր հարազատի մասնագիտացված խնամքը
-            </p>
+            
           </div>
           <form class="cta-form grid grid--3-cols" name="book-consultation" onsubmit="sendEmail();reset(); return false;">
             <!-- patient name input -->
             <div class="form-element">
               <label for="patient_name">
                 <p class="language language--en">Patient Name:</p>
-                <p class="language language--ru invisible">Имя Пациента:</p>
-                <p class="language language--arm invisible">Հիվանդի Անունը:</p>
+                
               </label>
               <input
                 class="txtPlcInput"
@@ -1257,8 +113,7 @@
             <div class="form-element">
               <label for="patient_age">
                 <p class="language language--en">Patient Age:</p>
-                <p class="language language--ru invisible">Возраст Пациента:</p>
-                <p class="language language--arm invisible">Հիվանդի Տարիքը:</p>
+                
               </label>
               <input
                 id="patient_age"
@@ -1272,10 +127,7 @@
             <div class="form-element">
               <label for="patient_diagnosis">
                 <p class="language language--en">Patient Diagnosis:</p>
-                <p class="language language--ru invisible">Диагноз Пациента:</p>
-                <p class="language language--arm invisible">
-                  Հիվանդի Ախտորոշումը:
-                </p>
+                
               </label>
               <input
                 class="txtPlcInput"
@@ -1290,8 +142,7 @@
             <div class="form-element">
               <label for="contact_name">
                 <p class="language language--en">Contact Name:</p>
-                <p class="language language--ru invisible">Контактное Лицо:</p>
-                <p class="language language--arm invisible">Ձեր Անունը։</p>
+              
               </label>
               <input
                 class="txtPlcInput"
@@ -1306,19 +157,14 @@
             <div class="form-element">
               <label for="contact_number">
                 <p class="language language--en">Contact Phone Number:</p>
-                <p class="language language--ru invisible">
-                  Контактный Телефон:
-                </p>
-                <p class="language language--arm invisible">
-                  Ձեր Հեռախոսահամարը:
-                </p>
+              
               </label>
               <input
                 id="contact_number"
                 name="contact_number"
                 type="tel"
                 placeholder=""
-                pattern="([0]{1}[1-9]{2}[0-9]{6})|([+]{1}[0-9]{7})|([+]{1}[0-9]{8})|([+]{1}[0-9]{9})|([+]{1}[0-9]{10})|([+]{1}[0-9]{11})"
+                pattern="[0-9]{11}"
                 required
               />
             </div>
@@ -1326,65 +172,32 @@
             <div class="form-element">
               <label for="contact_email">
                 <p class="language language--en">Contact E-mail:</p>
-                <p class="language language--ru invisible">Почтовый Адрес:</p>
-                <p class="language language--arm invisible">Ձեր է-փոստը:</p>
+            
               </label>
               <input
                 id="contact_email"
                 name="contact_email"
                 type="email"
                 placeholder=""
-                required
+                
               />
             </div>
             <!-- submit form -->
             <div class="btn--form-box">
               <button type="submit" class="btn btn--form">
                 <p class="language language--en">Book Now</p>
-                <p class="language language--ru invisible">Забронировать</p>
-                <p class="language language--arm invisible">Ամրագրել</p>
               </button>
             </div>
           </form>
         </div>
       </section>
-      <!-- COOPERATIONS SECTION -->
-      <!-- <section class="section-cooperations padding--section">
-        <div class="cooperations container">
-          cooperations headline
-          <p class="language language--en">We cooperate with</p>
-          <p class="language language--ru invisible">Мы сотрудничаем с</p>
-          <p class="language language--arm invisible">
-            Մենք համագործակցում ենք
-          </p>
 
-          cooperations logos
-          <div class="coop-logo-box flex--centered-vertically">
-            <img
-              class="coop-logo-img"
-              src="./assets/content/images/cooperations/UNFPA_logo.png"
-              alt="UNFPA Logo"
-            />
-            <img
-              class="coop-logo-img"
-              src="./assets/content/images/cooperations/ACA_logo.png"
-              alt="ACA Logo"
-            />
-            <img
-              class="coop-logo-img"
-              src="./assets/content/images/cooperations/FriendsHome_logo.png"
-              alt="Friends Home Logo"
-            />
-            <img
-              class="coop-logo-img"
-              src="./assets/content/images/cooperations/Promtest_logo.png"
-              alt="Promtest Laboratories Logo"
-            />
-          </div>
-        </div>
-      </section> -->
-    </main>
-    <!-- FOOTER -->
+
+
+
+
+
+        <!-- FOOTER -->
     <footer class="footer" id="footer">
       <div class="container footer-content grid">
         <!-- facebook -->
@@ -1392,16 +205,7 @@
           <p class="footer-headline center-text language language--en">
             Follow us on Facebook!
           </p>
-          <p
-            class="footer-headline center-text language language--ru invisible"
-          >
-            Подпишитесь на наш фейсбук!
-          </p>
-          <p
-            class="footer-headline center-text language language--arm invisible"
-          >
-            Հետևեք մեր ֆեյսբուքին
-          </p>
+          
           <div class="facebook-link-box flex--centered">
             <a
               href=""
@@ -1412,12 +216,29 @@
             </a>
           </div>
         </div>
-        <!-- logo and copyright -->
+
+        <!-- adress -->
+        <div class="footer-item footer-contact flex-column padding-top--sm">
+          <p class="footer-headline language language--en">Contact</p>
+          <p class="footer-contact-address language language--en">
+            7/ka pc culture housings society ,Ring road ,
+            Shymoli,Dhaka-1207 , Dhaka, Bangladesh.
+          </p>
+          <p class="footer-contact-phone">+8801511150112, +8801712833167</p>
+          <p class="footer-contact-email">contact@jashoreshebaltd.com</p>
+        </div>
+
+
+
+
+
+
+                <!-- logo and copyright -->
         <div class="footer-item footer-logo-and-copyright flex-column">
           <div class="footer-logo-box">
             <a href="#" class="btn footer-link--home"
               ><img
-                src="./assets/content/images/jsllogo.png"
+                src="media/jsllogo.png"
                 alt="Khnami Logo"
                 class="footer-logo-img"
             /></a>
@@ -1426,95 +247,24 @@
             <p class="copyright language language--en">
               &copy; 2023 Jashore Sheba Ltd
             </p>
-            <p class="copyright language language--ru invisible">
-              &copy; 2022 Центр Хнами
-            </p>
-            <p class="copyright language language--arm invisible">
-              &copy; 2022 Խնամի Կենտրոն
-            </p>
           </div>
         </div>
-        <!-- adress -->
-        <div class="footer-item footer-contact flex-column padding-top--sm">
-          <p class="footer-headline language language--en">Contact</p>
-          <p class="footer-headline language language--ru invisible">Контакт</p>
-          <p class="footer-headline language language--arm invisible">Կապ</p>
-          <p class="footer-contact-address language language--en">
-            7/ka pc culture housings society ,Ring road ,
-            Shymoli,Dhaka-1207 , Dhaka, Bangladesh.
-          </p>
-          <p class="footer-contact-address language language--ru invisible">
-            Гусан Шерами 2, Ереван,<br />
-            3-й этаж, здание Арменикум
-          </p>
-          <p class="footer-contact-address language language--arm invisible">
-            Գուսան Շերամի 2, Երևան, <br />
-            Արմենիկումի շենք, 3-րդ հարկ
-          </p>
-          <p class="footer-contact-phone">+8801511150112, +8801712833167</p>
-          <p class="footer-contact-email">jashoresheba2022@gmail.com</p>
-        </div>
+
+
         <!-- language select -->
-        <!-- <div class="footer-item footer-lang-select flex-column padding-top--sm">
-          <p class="footer-headline language language--en">Language</p>
-          <p class="footer-headline language language--ru invisible">Язык</p>
-          <p class="footer-headline language language--arm invisible">Լեզու</p>
-          //language select dropdown
-          <div class="lang-select-dropdown margin-bot--md">
-            <button class="lang-select-dropdown-btn flex--centered">
-              <p class="language language--en">
-                <img
-                  src="./assets/content/images/util/UKflag.svg"
-                  alt="UK flag"
-                  class="flag-img"
-                />
-              </p>
-              <p class="language language--ru invisible">
-                <img
-                  src="./assets/content/images/util/RUflag.svg"
-                  alt="RU flag"
-                  class="flag-img"
-                />
-              </p>
-              <p class="language language--arm invisible">
-                <img
-                  src="./assets/content/images/util/ARMflag.svg"
-                  alt="ARM flag"
-                  class="flag-img"
-                />
-              </p>
-              <ion-icon name="caret-down-outline"></ion-icon>
-            </button>
-            <div class="lang-select-dropdown-content footer--lang-select-dropdown-content hidden-content">
-              <a href="#" class="lang-select lang-select--arm">
-                <img
-                  src="./assets/content/images/util/ARMflag.svg"
-                  alt="ARM flag"
-                  class="flag-img"
-                />
-                <p class="armenian footer--lang-select--armenian">Հայերեն</p></a
-              >
-              <a href="#" class="lang-select lang-select--ru">
-                <img
-                  src="./assets/content/images/util/RUflag.svg"
-                  alt="RU flag"
-                  class="flag-img"
-                />
-                <p>Русский</p></a
-              >
-              <a href="#" class="lang-select lang-select--en">
-                <img
-                  src="./assets/content/images/util/UKflag.svg"
-                  alt="UK flag"
-                  class="flag-img"
-                />
-                <p>English</p></a
-              >
-            </div>
-          </div> -->
+
         </div>
       </div>
     </footer>
+
+
+
+
+
+      <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+
     <!-- icon pack -->
     <script
       type="module"
@@ -1530,7 +280,7 @@
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
     <!-- js -->
-    <script defer src="./assets/JS/script.js"></script>
+    <script defer src="js/script.js"></script>
     <script defer src="./assets/JS/translate.js"></script>
     <!-- Form Email Support -->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
@@ -1538,8 +288,10 @@
       function sendEmail(){
         log("Trying to send an e-mail...");
         Email.send({
+        // SecureToken : "30e250b0-8772-49bd-a264-ac2634a8301e",
         SecureToken : "30e250b0-8772-49bd-a264-ac2634a8301e",
-        To : "arahman.dcc2@gmail.com",
+        To : "contact@jashoreshebaltd.com",
+        // From : "contact@khnami-center.com",
         From : "contact@khnami-center.com",
         Subject : "Form Submission",
         Body : 
@@ -1560,5 +312,9 @@
         );
       }
     </script>
+
+
+
+
   </body>
 </html>

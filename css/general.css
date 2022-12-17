@@ -15,7 +15,7 @@
   /*Primary Color*/
   --main-color: #229fa1;
   /*Tints*/
-  --tint-20: #4eb2b4;
+  --tint-20: #DBE3EE;
   --tint-60: #a7d9d9;
   --tint-70: #bde2e3;
   --tint-90: #dbe3ee;
@@ -29,7 +29,7 @@
   /* Secondary Color */
   --secondary-color: #3776ff;
   /*Shades*/
-  --secondary-shade-20: #2c5ecc;
+  --secondary-shade-20: #000;
   --secondary-shade-30: #2753b3;
 }
 

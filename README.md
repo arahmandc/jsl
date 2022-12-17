@@ -1,2 +1,0 @@
-# jsl
-Jashore Sheba Ltd
