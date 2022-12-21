@@ -70,9 +70,12 @@ a:hover
     border-radius: 0px;
 }
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
-    background-color: #46A1B4;
+    background-color: #00A0E9;  // 00A0E9
     border-color: #5FA8AB;
 }
+
+46A1B4
+
 .pagination>li>a, .pagination>li>span {
 
 color: #085A6C;
@@ -125,7 +128,7 @@ h1, h2, h3, h4, h5, h6
 
 .section-header{
   font-size: 2em;
-  border-bottom: 1px dotted #ccc;
+  border-bottom: 1px dotted #000;
   padding: 1em 0;
 }
 
@@ -142,7 +145,7 @@ h1, h2, h3, h4, h5, h6
 .navbar-default
 {
     /*background-color: #267D90;*/
-    background-color: #DBE3EE; 
+    background-color: #00A0E9; 
     /*DBE3EE 46a1b4*/
 }
 .navbar-default .navbar-header .logo
@@ -280,7 +283,7 @@ li:last-child
 }
 .appointment .header 
 {
-    background-color: #46a1b4;
+    background-color: #00A0E9;
     min-height: 99px;
     height: auto !important;
     padding: 10px 23px 0px;
@@ -1185,7 +1188,7 @@ main p {
 #footer
 {
     /*background-color: #085A6C;*/
-    background-color: #46A1B4;
+    background-color: #00A0E9;
     /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
     background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
     background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
@@ -1228,7 +1231,7 @@ li.socials-icons
     border-radius: 50%;
     border: 2px solid #fff;
     /* background: #6DBEC2; */
-    background-color: #49C1DC;
+    background-color: #00A0E9;
     float: left;
     color: white;
     padding-top: 3px;
