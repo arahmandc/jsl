@@ -186,7 +186,7 @@ const log = console.log;
 
 // let dropdownContentVisible = false;
 
-//Toggles the visibility of contents
+// Toggles the visibility of contents
 // langSelectBtns.forEach((el, i) => {
 //   el.addEventListener("click", () => {
 //     !dropdownContentVisible;

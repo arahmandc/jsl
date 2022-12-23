@@ -1340,3 +1340,138 @@ li.socials-icons
         display: none;
     }
 }
+
+
+
+
+/* language select dropdown */
+
+.lang-select-dropdown-btn,
+.lang-select-dropdown-content {
+  font-family: inherit;
+}
+
+.lang-select-dropdown-btn {
+  background-color: var(--tint-90);
+  color: #363535;
+  padding: 1.6rem;
+  font-size: 2.8rem;
+  border: none;
+  gap: 0.3rem;
+}
+
+.lang-select-dropdown {
+  position: relative;
+}
+
+.lang-select-dropdown-content {
+  position: absolute;
+  background-color: var(--tint-90);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.lang-select-dropdown-content a {
+  text-align: left;
+  color: #111;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.lang-select-dropdown-content a:hover {
+  background-color: var(--tint-70);
+}
+
+.lang-select-dropdown:hover .lang-select-dropdown-content {
+  display: block;
+}
+
+.lang-select-dropdown:hover .lang-select-dropdown-btn {
+  background-color: var(--tint-60);
+}
+
+.main-nav {
+  display: flex;
+  z-index: 9999;
+}
+
+.lang-select {
+  gap: 1.4rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.lang-select a,
+.lang-select p {
+  display: inline;
+}
+
+.flag-img {
+  height: 2.4rem;
+  margin-right: 0.5rem;
+}
+
+
+
+
+
+
+
+.map-lang-button {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: fixed;
+    top: 60px;
+    right: 7px;
+    z-index: 9999;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-variant: small-caps;
+}
+
+@media (min-width: 992px) {
+    .map-lang-button {
+        top: 68px;
+    }
+}
+
+@media (max-width: 767px) {
+    .map-lang-button {
+        top: 12px;
+        right: 60px;
+    }
+}
+
+@media (max-width: 411px) {
+    .map-lang-button {
+        top: 65px;
+        right: 7px;
+    }
+}
+
+.map-lang-button .button {
+    margin: 0 3px;
+    display: inline-block;
+    width: 22px;
+    background-color: #aaa;
+    height: 12px;
+    border-radius: 20px;
+    vertical-align: middle;
+    box-shadow: 0 0 3px #000 inset;
+}
+
+.map-lang-button .button::before {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #eee;
+    content: "";
+    vertical-align: super;
+}
+
+.map-lang-button a {
+    color: #fff;
+}
