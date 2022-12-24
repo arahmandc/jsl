@@ -314,7 +314,7 @@ li:last-child
     height: 32px;
     border-radius: 16px;
     border: 2px solid #fff;
-    background: #6DBEC2;
+    background: #09A3EA;
     color: white;
     padding-top: 3px;
     padding-left: 6px;
@@ -558,9 +558,9 @@ section.starting-text
     width: 150px;
     height: 150px;
     border-radius: 75px;
-    border: 2px solid #6DBEC2;
+    border: 2px solid #09A3EA;
     background: #fff;
-    color: #6DBEC2;
+    color: #09A3EA;
     padding-top: 38px;
     transition: all 0.7s ease 0s;
 }
@@ -577,7 +577,7 @@ section.starting-text
 .service:hover .service-icon i
 {
     color: white;
-    background-color: #6DBEC2;
+    background-color: #09A3EA;
 }
 .service:hover .about-service h3
 {
@@ -1156,7 +1156,7 @@ main p {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #6DBEC2;
+    background: #00A0E9;
     color: white;
     padding-top: 12px;
     padding-left: 14px;
