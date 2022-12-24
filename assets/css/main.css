@@ -402,7 +402,8 @@ li:last-child
 
 section.starting-text 
 {
-    background-color: rgba(70, 161, 180, 0.82);
+    background-color: #00A0E9;
+    /*rgba(70, 161, 180, 0.82)*/
     /*background: -webkit-linear-gradient(left top, #085A6C , #3E8B90);
     background: -o-linear-gradient(bottom right, #085A6C , #3E8B90);
     background: -moz-linear-gradient(bottom right, #085A6C , #3E8B90);
@@ -452,7 +453,7 @@ section.starting-text
 .service-heading 
 {
     padding: 20px 0px;
-    color: darkcyan;
+    color: #001558;
     font-size: 29px;
 }
 
@@ -581,7 +582,7 @@ section.starting-text
 }
 .service:hover .about-service h3
 {
-    color: #02A2B6;
+    color: #001558;
 }
 .special-service
 {
