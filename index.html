@@ -40,8 +40,35 @@
           src:url(assets/fonts/LiSirajeeSheikhANSIV1-Regular.ttf) format("truetype");
         }
 
+        .popup{
+        	border: 1px solid rgba(255, 255, 255, 0.3);
+    position: fixed;
+    top: 200px;
+    right: 200px;
+    z-index: 9999;
+    /*border-radius: 5px;
+    padding: 5px 10px;*/
+    font-variant: small-caps;
+        }
+
+        .popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+		background: #03549a;
+		border-radius: 100%;
+		width: 40px;
+		height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
     </style>
 
+    
 
 
 
@@ -90,6 +117,8 @@
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     </script>
+
+  
 
 
     
@@ -143,6 +172,16 @@
             En
         </a>
     </div>
+
+
+    <span class="popup" style="background-image: url(hny.jpg); height: 366px;
+    width: 549px;">
+    	<button id="close">&times;</button>
+    	<!-- <img src="hny.jpg"> -->
+    	 
+    </span>
+
+
 
 
 		<section class= "heading-slider">
@@ -606,6 +645,24 @@
           message => alert("আপনার অনুরোধ সফলভাবে জমা দেওয়া হয়েছে!")
         );
       }
+    </script>
+
+
+
+     <script type="text/javascript">
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        2000 
+    )
+});
+
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
     </script>
 
 
