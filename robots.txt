@@ -1,3 +1,0 @@
-User-Agent: *
-Allow: /
-Sitemap: https://www.khnami-center.com/sitemap.xml
