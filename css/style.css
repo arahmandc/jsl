@@ -950,3 +950,36 @@ color: #223A66;
 font-size: 14px; 
 font-weight: 700;
  }
+
+
+
+ #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #223A66;
+    color: white;
+  }
+  #customers td a{
+    color: #223A66;
+    text-decoration: none;
+  }
+  #customers td a:hover{
+    color: #C31A21;
+    text-decoration: none;
+  }
