@@ -783,7 +783,7 @@ margin-bottom: 18px;
 .left ul li i{
     width: 31px;
     font-size: 20px;
-    color: #223A66;
+    color: #fff;
 } 
 .left ul li i:hover{
    color: #C31A21;
@@ -902,6 +902,11 @@ align-items: center;
 color: #fff;
 list-style: none;
 margin-left: 13px;
+}
+
+.follow ul li a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .follow ul li i{
