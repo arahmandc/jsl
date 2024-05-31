@@ -19,6 +19,8 @@
 <link rel="stylesheet" href="../css/style.css">
 <!-- media css  -->
 <link rel="stylesheet" href="../css/media.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="custom.css">
   </head>
   <body>
 
@@ -113,28 +115,98 @@
 
 
 
- <section class="pricing_section">
+<section class="welcome_section">
   <div class="container">
-    <div class="row">
+      <div class="row">
 
-    <div class="col-md-12">
-      <div class="price_intro heading wow zoomIn mb-5 text-center">
-        <h3>Contact</h3>
-        <div class="pic_doc">
-        <!-- <img src="image/heloix.jpg" class="img-fluid" alt=""> -->
-        </div>
-        <!-- <p>Corem ipsum dolor what a amet, consectetuer adipiscing elit diam an nonummy <br> laoreet dolore magna aliquam erat volutpat.</p>  -->
-        </div>
+          <div class="col-md-6 ">
 
-    </div>
-  
+          <!-- Left side of the form -->
+          <div class="container-left">
+
+          <h3>Fill the Form*</h3>
+                <!-- Form -->
+                <form id="contactForm" onsubmit="return validateForm()">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name*</label>
+                            <input type="text" id="name" placeholder="Enter your Name" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Phone*</label>
+                            <input type="text" id="phone" placeholder="+91 1234567890" required>
+                        </div>
+                    </div>
+                    
+                    <!-- Input row for Email and Subject -->
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email*</label>
+                            <input type="email" id="email" placeholder="youremail@gmail.com" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" id="subject" placeholder="Inquiry">
+                        </div>                       
+                    </div>
+
+                    <!-- Label for Message textarea -->
+                    <label>Message*</label>
+                    <textarea rows="10" id="message" placeholder="Enter your Message" required></textarea>
+                    <button type="submit" style="font-size: 15; font-weight: 600; background-color:#474646;
+                    border: none;
+                    outline: none;
+                    width: 20%;
+                    height: 40px;
+                    border-radius: 25px;
+                    margin-top: 20px;
+                    transition: all 0.5s ease 0s;
+                    font-family: Plus Jakarta Sans, sans-serif;">SEND</button>
+                </form>
+              
+
+                </div>
+
+
+          </div>
+
+          <div class="col-md-6">  
+
+              <h3>Reach Us</h3>
+              <!-- Table for contact information -->
+              <table>
+                  <tr>
+                      <td>Email: </td>
+                      <td>contact@msijanakpuri.com</td>
+                  </tr>
+
+                  <tr>
+                      <td>Phone: </td>
+                      <td>+91 011-45656183</td>
+                  </tr>
+
+                  <tr>
+                      <td>Address: </td>
+                      <td>Maharaja Surajmail Institute <br>
+                          C-4, Janakpuri, <br>
+                          Delhi - 110058, India</td>
+                  </tr>
+              </table>
+              
+              <!-- Map section -->
+              <div class="map">
+                  <!-- Google Map iframe -->
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.2888210618585!2d77.09131724016883!3d28.621104670527558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04afb8dbcfe1%3A0xaff19e718be2136b!2sMaharaja%20Surajmal%20Institute%20Of%20Technology!5e0!3m2!1sen!2sin!4v1711214006526!5m2!1sen!2sin" width="800" height="275" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
 
 
 
-  <div class="col-md-1"></div>
 
-        </div>
-    </div>
+          </div>
+
+      </div>
   </div>
 </section>
 
